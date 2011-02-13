@@ -38,6 +38,11 @@ On Heroku, the app lives at [http://hollow-cloud-468.heroku.com](http://hollow-c
 ## Create app on Heroku
     heroku create
 
+## Choose Heroku stack - eg) Ruby 1.9.2 instead of REE 1.8.7
+    heroku stack:migrate bamboo-mri-1.9.2  
+    // May need to create a dummy git commit
+    git push heroku master
+
 ## Deploy app to Heroku
     git push heroku master
 
