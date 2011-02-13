@@ -47,4 +47,5 @@ On Heroku, the app lives at [http://hollow-cloud-468.heroku.com](http://hollow-c
 ## Next steps
   - Develop and test changes locally.
   - Commit code to git.
-  - Push your changes to Heroku with `git push heroku`.
+  - Push changes to github with `git push origin master`
+  - Push your changes to Heroku with `git push heroku`
