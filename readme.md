@@ -30,6 +30,10 @@ On Heroku, the app lives at [http://hollow-cloud-468.heroku.com](http://hollow-c
 ### add appropriate entries to .gitignore
     git add .  
     git commit -m 'Initial commit'
+    
+## Create new Github repo
+    git remote add origin git@github.com:brentertz/rukoreh.git
+    git push origin master
 
 ## Create app on Heroku
     heroku create
