@@ -1,7 +1,7 @@
 # Rukoreh
 This is a bare Ruby on Rails 3 app that has been configured for deployment on Heroku.  The steps below were all that was needed.
 
-On Heroku, the app lives at [http://hollow-cloud-468.heroku.com](http://hollow-cloud-468.heroku.com)
+On Heroku, the app lives at [http://hollow-cloud-468.heroku.com](http://rukoreh.heroku.com/)
 ## Heroku Documentation
 
   - [http://devcenter.heroku.com/](http://devcenter.heroku.com/)
@@ -36,7 +36,7 @@ On Heroku, the app lives at [http://hollow-cloud-468.heroku.com](http://hollow-c
     git push origin master
 
 ## Create app on Heroku
-    heroku create
+    heroku create rukoreh
 
 ## Choose Heroku stack - eg) Ruby 1.9.2 instead of REE 1.8.7
     heroku stack:migrate bamboo-mri-1.9.2  
