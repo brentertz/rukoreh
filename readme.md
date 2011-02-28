@@ -46,6 +46,7 @@ On Heroku, the app lives at [http://rukoreh.heroku.com/](http://rukoreh.heroku.c
     heroku stack
 
 ## Deploy app to Heroku
+    heroku config:add BUNDLE_WITHOUT=development:test
     git push heroku master
 
 ## Setup database
