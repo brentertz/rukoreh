@@ -36,14 +36,7 @@ On Heroku, the app lives at [http://rukoreh.heroku.com/](http://rukoreh.heroku.c
     git push origin master
 
 ## Create app on Heroku
-    heroku create rukoreh
-
-## Choose Heroku stack - eg) Ruby 1.9.2 instead of REE 1.8.7
-    heroku stack:migrate bamboo-mri-1.9.2  
-    // May need to create a dummy git commit
-    git push heroku master  
-    // verify update  
-    heroku stack
+    heroku create rukoreh --stack bamboo-mri-1.9.2
 
 ## Deploy app to Heroku
     heroku config:add BUNDLE_WITHOUT=development:test
